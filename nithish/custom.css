@@ -1,0 +1,42 @@
+.panel-body img{
+width:150px;
+height:150px;
+}
+.jumbotron h1{
+	color:black;
+}
+.navbar{
+	 margin-bottom: 0;
+    background-color: black;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px ;
+    line-height: 1.42857143;
+    letter-spacing: 4px;
+    border-radius: 0;
+	height:70px;
+	padding-top:10px;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+    background-color: #fff !important;
+	transition:0.5s ease;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.panel {
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+.panel-body{
+	margin-top:20px;
+}
+
+
